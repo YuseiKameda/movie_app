@@ -5,5 +5,8 @@
       "start": "node server/server.js",
       "heroku-postbuild": "cd client && npm install && npm run build"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "engines": {
+    "node": "16.x"
+  }
   }
