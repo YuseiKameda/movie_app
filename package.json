@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "scripts": {
       "start": "node server/server.js",
-      "heroku-postbuild": "cd client && npm install && npm run build"
+      "heroku-postbuild": "cd client && npm install && npm run build && ../server && npm install"
     },
     "dependencies": {},
     "engines": {
